@@ -1,4 +1,9 @@
-sum = 0
-for i in range(1,101,2):
-    sum = sum + i
-print sum
+while 1:
+    def fib(x):
+        n, a, b = 0, 0, 1
+        while n < x:
+            print b
+            a, b = b, a + b
+            n = n + 1
+    x = int(raw_input('input x:'))
+    fib(x)

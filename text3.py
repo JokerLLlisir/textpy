@@ -13,9 +13,9 @@ while 1:
                     isPrime.append(a)
     ifPrime()
     print 'This is Prime:'
-    print  set(isPrime)
+    print  sorted(set(isPrime))
     print  'This is not Prime:'
-    print  set(notPrime)
+    print  sorted(set(notPrime))
 
 
 
